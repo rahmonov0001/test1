@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="140536" started-at="2021-11-12T10:25:23 UZT" finished-at="2021-11-12T10:27:44 UZT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="140536" started-at="2021-11-12T10:25:23 UZT" finished-at="2021-11-12T10:27:44 UZT">
+      <class name="test1.LoginAppTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test1.LoginAppTest@3e58a80e]" name="initialize" is-config="true" duration-ms="6880" started-at="2021-11-12T10:25:31 UZT" finished-at="2021-11-12T10:25:38 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginAppValidation(java.lang.String,java.lang.String)[pri:0, instance:test1.LoginAppTest@3e58a80e]" name="loginAppValidation" duration-ms="10123" started-at="2021-11-12T10:26:29 UZT" data-provider="getData" finished-at="2021-11-12T10:26:40 UZT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester99.test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAppValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test1.LoginAppTest@3e58a80e]" name="teardown" is-config="true" duration-ms="4184" started-at="2021-11-12T10:27:33 UZT" finished-at="2021-11-12T10:27:37 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test1.LoginAppTest -->
+      <class name="test1.LoginDisklTest2">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test1.LoginDisklTest2@4f18837a]" name="initialize" is-config="true" duration-ms="6109" started-at="2021-11-12T10:25:38 UZT" finished-at="2021-11-12T10:25:44 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginMailValidation(java.lang.String,java.lang.String)[pri:0, instance:test1.LoginDisklTest2@4f18837a]" name="loginMailValidation" duration-ms="13348" started-at="2021-11-12T10:26:16 UZT" data-provider="getData" finished-at="2021-11-12T10:26:29 UZT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester99.test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMailValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test1.LoginDisklTest2@4f18837a]" name="teardown" is-config="true" duration-ms="972" started-at="2021-11-12T10:27:37 UZT" finished-at="2021-11-12T10:27:38 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test1.LoginDisklTest2 -->
+      <class name="test1.HomePageTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test1.HomePageTest@59309333]" name="initialize" is-config="true" duration-ms="8256" started-at="2021-11-12T10:25:23 UZT" finished-at="2021-11-12T10:25:31 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="emptySearchValidation()[pri:0, instance:test1.HomePageTest@59309333]" name="emptySearchValidation" duration-ms="221" started-at="2021-11-12T10:26:52 UZT" finished-at="2021-11-12T10:26:52 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptySearchValidation -->
+        <test-method status="PASS" signature="feedBarValidation()[pri:0, instance:test1.HomePageTest@59309333]" name="feedBarValidation" duration-ms="3191" started-at="2021-11-12T10:26:52 UZT" finished-at="2021-11-12T10:26:55 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedBarValidation -->
+        <test-method status="PASS" signature="loginBarValidation()[pri:0, instance:test1.HomePageTest@59309333]" name="loginBarValidation" duration-ms="506" started-at="2021-11-12T10:26:55 UZT" finished-at="2021-11-12T10:26:56 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBarValidation -->
+        <test-method status="PASS" signature="servicesBarValidation()[pri:0, instance:test1.HomePageTest@59309333]" name="servicesBarValidation" duration-ms="182" started-at="2021-11-12T10:26:56 UZT" finished-at="2021-11-12T10:26:56 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- servicesBarValidation -->
+        <test-method status="PASS" signature="sideBarValidation()[pri:0, instance:test1.HomePageTest@59309333]" name="sideBarValidation" duration-ms="2090" started-at="2021-11-12T10:26:56 UZT" finished-at="2021-11-12T10:26:58 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sideBarValidation -->
+        <test-method status="PASS" signature="topNewsBarValidation()[pri:0, instance:test1.HomePageTest@59309333]" name="topNewsBarValidation" duration-ms="69" started-at="2021-11-12T10:26:58 UZT" finished-at="2021-11-12T10:26:58 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- topNewsBarValidation -->
+        <test-method status="PASS" signature="weatherBarValidation()[pri:0, instance:test1.HomePageTest@59309333]" name="weatherBarValidation" duration-ms="54" started-at="2021-11-12T10:26:58 UZT" finished-at="2021-11-12T10:26:58 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weatherBarValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test1.HomePageTest@59309333]" name="teardown" is-config="true" duration-ms="4296" started-at="2021-11-12T10:27:28 UZT" finished-at="2021-11-12T10:27:33 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:test1.HomePageTest@59309333]" name="quit" is-config="true" duration-ms="554" started-at="2021-11-12T10:27:44 UZT" finished-at="2021-11-12T10:27:45 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- test1.HomePageTest -->
+      <class name="test1.SearchKeyboardTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test1.SearchKeyboardTest@7ec7ffd3]" name="initialize" is-config="true" duration-ms="8561" started-at="2021-11-12T10:26:00 UZT" finished-at="2021-11-12T10:26:08 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="keyboardValidation()[pri:0, instance:test1.SearchKeyboardTest@7ec7ffd3]" name="keyboardValidation" duration-ms="22285" started-at="2021-11-12T10:27:01 UZT" finished-at="2021-11-12T10:27:23 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyboardValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test1.SearchKeyboardTest@7ec7ffd3]" name="teardown" is-config="true" duration-ms="212" started-at="2021-11-12T10:27:43 UZT" finished-at="2021-11-12T10:27:43 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test1.SearchKeyboardTest -->
+      <class name="test1.SearchVoiceTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test1.SearchVoiceTest@5876a9af]" name="initialize" is-config="true" duration-ms="6053" started-at="2021-11-12T10:26:08 UZT" finished-at="2021-11-12T10:26:14 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="keyboardValidation()[pri:0, instance:test1.SearchVoiceTest@5876a9af]" name="keyboardValidation" duration-ms="2555" started-at="2021-11-12T10:26:58 UZT" finished-at="2021-11-12T10:27:01 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyboardValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test1.SearchVoiceTest@5876a9af]" name="teardown" is-config="true" duration-ms="462" started-at="2021-11-12T10:27:43 UZT" finished-at="2021-11-12T10:27:44 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test1.SearchVoiceTest -->
+      <class name="test1.LoginMailTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test1.LoginMailTest@4fb61f4a]" name="initialize" is-config="true" duration-ms="8395" started-at="2021-11-12T10:25:44 UZT" finished-at="2021-11-12T10:25:53 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginMailValidation(java.lang.String,java.lang.String)[pri:0, instance:test1.LoginMailTest@4fb61f4a]" name="loginMailValidation" duration-ms="12345" started-at="2021-11-12T10:26:40 UZT" data-provider="getData" finished-at="2021-11-12T10:26:52 UZT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester99.test]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tester2021]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMailValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test1.LoginMailTest@4fb61f4a]" name="teardown" is-config="true" duration-ms="1102" started-at="2021-11-12T10:27:38 UZT" finished-at="2021-11-12T10:27:39 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test1.LoginMailTest -->
+      <class name="test1.SearchBoxTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:test1.SearchBoxTest@5b239d7d]" name="initialize" is-config="true" duration-ms="7022" started-at="2021-11-12T10:25:53 UZT" finished-at="2021-11-12T10:26:00 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="searchValidation()[pri:0, instance:test1.SearchBoxTest@5b239d7d]" name="searchValidation" duration-ms="5112" started-at="2021-11-12T10:27:23 UZT" finished-at="2021-11-12T10:27:28 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test1.SearchBoxTest@5b239d7d]" name="teardown" is-config="true" duration-ms="4119" started-at="2021-11-12T10:27:39 UZT" finished-at="2021-11-12T10:27:43 UZT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test1.SearchBoxTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

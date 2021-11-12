@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 177.807 s <<< FAILURE! - in TestSuite
+loginMailValidation(test1.LoginMailTest)  Time elapsed: 15.624 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://mail.yandex.ru/?uid=1514094372#tabs/relevant] but found [https://mail.yandex.ru/#tabs/relevant]
+	at test1.LoginMailTest.loginMailValidation(LoginMailTest.java:45)
+
